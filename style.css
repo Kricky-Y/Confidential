@@ -1,0 +1,39 @@
+@charset "utf-8"; 
+
+.container {
+  width: min(calc(100% - 32px), 600px);
+  margin: 0 auto;
+  background-color: aliceblue;
+}
+
+.icons {
+  display: flex; 
+  font-size: 24px;
+  justify-content: flex-end;
+}
+
+i {
+  cursor: pointer;
+  opacity: .7;
+}
+
+i:hover {
+  opacity: 1;
+}
+
+h1 {
+  font-size: 24px;
+  padding-bottom: 12px;
+  border-bottom: solid 1px;
+}
+
+span {
+  background: #000;
+  font-weight: bold;
+}
+
+.red {
+  background: none;
+  color: red;
+}
+
